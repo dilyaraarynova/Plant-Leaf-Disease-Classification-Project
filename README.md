@@ -52,8 +52,8 @@ Two evaluation setups:
 src/
 │── preprocessing/
 │── training/
-│── requirements.txt
 
+requirements.txt
 
 ---
 
