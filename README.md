@@ -50,7 +50,9 @@ Two evaluation setups:
 
 ## Project Structure
 src/
+
 │── preprocessing/
+
 │── training/
 
 requirements.txt
