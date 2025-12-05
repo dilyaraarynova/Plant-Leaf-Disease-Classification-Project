@@ -49,14 +49,13 @@ Two evaluation setups:
 ---
 
 ## Project Structure
-src/
-
-│── preprocessing/
-
-│── training/
-
-requirements.txt
-
+```
+project-root/
+├── src/
+│   ├── preprocessing/      
+│   └── training/           
+└── requirements.txt       
+```
 ---
 
 ## 🧪 Usage
@@ -64,5 +63,25 @@ requirements.txt
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+### Preprocess data
+```bash
+jupyter execute src/preprocessing/EDA.ipynb 
+```
+### Train and evaluate a model
+```bash
+python src/training/hybridmodels_experiment1_training_colab.py
+```
+```bash
+jupyter execute src/training/vgg_and_resnet.ipynb 
+```
 
+## Contributors
+**CNN Models:** Amina, Madina, Zhazelya
+
+**Transfer Learning:** Ablay, Dilyara
+
+**Data & Admin:** Dana
+
+**Writing & Review:** All authors
 
